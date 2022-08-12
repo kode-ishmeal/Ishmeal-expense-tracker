@@ -1,0 +1,68 @@
+header{
+    text-align: center;
+}
+main{
+    /* hight:100vw; */
+    width: 100vw;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form-container{
+    width: 40%;
+    margin: 10 auto;
+    border: 1px solid #dedede;
+    padding: 20px;
+
+    
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin:10px 0;
+    
+    
+}
+.form-group input{
+    padding: 10px 10px;
+    margin-top:10px ;
+    background-color:#dedede ;
+    border:none ;
+    border-radius: 5px;
+}
+
+#form-container button
+{
+    padding:10px 10px ;
+    background-color: steelblue;
+    color: wheat;
+    border: none;
+    border-radius: 5px ;
+    color:white ;
+}
+#transaction{
+    width: 40%;
+    margin: 10px auto;
+    border: 1px solid #dedede;
+padding:20px;
+}
+#items{
+    list-style: none;
+}
+.income, .expense{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 2);
+    padding: 15px;
+}
+.income{
+    border-right: 15px solid green;
+
+}
+.expense{
+    border-right:5px solid red ;
+}
+
+
